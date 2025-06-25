@@ -1,1 +1,11 @@
-{ "sections": { "main": { "type": "main-page" } }, "order": [ "main" ] }
+{
+  "sections": {
+    "homepage-banner": {
+      "type": "homepage-banner",
+      "settings": {}
+    }
+  },
+  "order": [
+    "homepage-banner"
+  ]
+}
