@@ -1,1 +1,13 @@
-[{ "name": "theme_info", "settings": [] }]
+[
+  {
+    "name": "Genel Ayarlar",
+    "settings": [
+      {
+        "type": "text",
+        "id": "site_basligi",
+        "label": "Site Başlığı",
+        "default": "Cyber Samurai"
+      }
+    ]
+  }
+]
