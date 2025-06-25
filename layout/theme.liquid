@@ -1,12 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ settings.site_basligi }}</title>
+    <meta charset="utf-8">
+    <title>{{ page_title }}</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     {{ content_for_header }}
+    {{ 'theme.css' | asset_url | stylesheet_tag }}
   </head>
   <body>
+    {% section 'header' %}
     {{ content_for_layout }}
+    {% section 'footer' %}
   </body>
 </html>
