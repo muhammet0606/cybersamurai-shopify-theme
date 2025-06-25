@@ -3,6 +3,7 @@
     "header": { "type": "header" },
     "about": { "type": "about-us" },
     "footer": { "type": "footer" }
+    "type": "hero-banner"
   },
   "order": ["header", "about", "footer"]
 }
