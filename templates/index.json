@@ -1,11 +1,8 @@
 {
   "sections": {
-    "homepage-banner": {
-      "type": "homepage-banner",
-      "settings": {}
-    }
+    "header": { "type": "header" },
+    "about": { "type": "about-us" },
+    "footer": { "type": "footer" }
   },
-  "order": [
-    "homepage-banner"
-  ]
+  "order": ["header", "about", "footer"]
 }
