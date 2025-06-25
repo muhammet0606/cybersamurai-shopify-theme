@@ -1,0 +1,31 @@
+<section class="about-us" style="padding: 40px 20px; text-align: center;">
+  <div class="container">
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.description }}</p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hakkımızda",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Başlık",
+      "default": "Hakkımızda"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Açıklama",
+      "default": "As Cyber Samurai, we bring high-quality designs to you."
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hakkımızda Bölümü"
+    }
+  ]
+}
+{% endschema %}
