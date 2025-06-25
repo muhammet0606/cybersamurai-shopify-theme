@@ -1,9 +1,17 @@
 {
   "sections": {
-    "header": { "type": "header" },
-    "about": { "type": "about-us" },
-    "footer": { "type": "footer" }
-    "type": "hero-banner"
+    "header": {
+      "type": "header"
+    },
+    "hero": {
+      "type": "hero-banner"
+    },
+    "about": {
+      "type": "about-section"
+    },
+    "footer": {
+      "type": "footer"
+    }
   },
-  "order": ["header", "about", "footer"]
+  "order": ["header", "hero", "about", "footer"]
 }
